@@ -37,19 +37,6 @@
  */
 require '/var/www/limesurvey/config-secret.php';
 
-/**
- * Redirect Wikimania 2021 traffic from old survey to the new one
- *  https://meta.wikimedia.org/wiki/Talk:Wikimania_2021/Call_for_volunteers#confusing_question
- *  https://meta.wikimedia.org/wiki/Special:PermaLink/21137123#confusing_question
- *  https://phabricator.wikimedia.org/T274837
- * TODO: Disable after April 2021
- */
-if( $_SERVER['REQUEST_URI'] === '/index.php?r=survey/index&sid=272925&lang=en' ) {
-	http_response_code( 302 );
-	header( "Location: https://survey.wikimedia.it/index.php?r=survey/index&sid=856642&lang=en" );
-	exit;
-}
-
 return array(
 
 	'components' => array(
