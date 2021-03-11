@@ -66,8 +66,8 @@ return array(
 // TODO: fix PATH_INFO in PHP_FPM
 //   /etc/httpd/sites-enabled/it-wikimedia-survey-ssl.conf
 //
-//			'urlFormat' => 'path',
-			'urlFormat' => 'get',
+			'urlFormat' => 'path',
+//			'urlFormat' => 'get',
 			'rules' => array(
 				// You can add your own rules here
 			),
