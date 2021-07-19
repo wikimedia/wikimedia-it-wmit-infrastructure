@@ -59,12 +59,12 @@ const DEFAULT_LANGUAGE = 'it';
 // List of supported languages, fake constant as arrays can be used as constants only in PHP >=5.6
 $ALLOWED_LANGUAGES = [
 //    'fr' => 'Français',
+    'it' => 'Italiano',
     'en' => 'English',
 //    'oc' => 'Occitan',
 //    'es' => 'Español',
 //    'de' => 'Deutsch',
 //    'nl' => 'Dutch',
-    'it' => 'Italiano',
 //    'br' => 'Brezhoneg',
 ];
 
